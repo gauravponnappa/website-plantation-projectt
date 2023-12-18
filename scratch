@@ -1,0 +1,30 @@
+body{
+    background-image: url("backgroundd.jpeg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;}
+
+    
+    #ffe9e1
+
+    https://goo.gl/maps/TjyLZLU3QogGYB3X6
+
+
+    <div class="container" style="background-color:#ffe6dd;margin-top: 0.0%; padding-left: 5%; padding-top: 2%;display: flex;height:auto;width:auto">
+    <p><strong><u style="color: #c88d70;font-size: 150%;">The Weather</u></strong></p><br>
+    </div>
+
+
+
+    <div class="container" style="background-color:#ffe6dd; display: flex;height:auto;width:auto">
+    <weather style="margin: 2%;margin-left:8%;font-size:150%;"><strong style="color:rgb(71, 71, 71) ;"><something id="hours"></something> : <something id="mins"></something></strong></weather>
+    <h3 style="color: rgb(71, 71, 71);position: absolute;top: 11%; left: 40%;font-size: 140%;">-------- Gudloor --------</h3>
+    <h3 style="color: rgb(71, 71, 71);position: absolute;top: 11%; right: 5%;font-size: 140%;"><temperature id="outputt">22</temperature>°C</h3>
+          <script>
+              const d = new Date();
+              document.getElementById("hours").innerHTML = d.getHours();
+              document.getElementById("mins").innerHTML = d.getMinutes();
+          </script>
+    </div>
+
+    window.location.replace("https://greenlandplantations.com/mobile.html");
